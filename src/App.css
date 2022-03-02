@@ -1,0 +1,45 @@
+
+.app-logo {
+  height: 40px;
+}
+
+
+.app-header {
+  height: 60px;
+  padding: 0 10px;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.task-wrap {
+  border: 1px solid #000;
+  width: 300px;
+}
+
+.task-wrap.done {
+  border: 1px solid red;
+}
+
+.priority {
+  border-radius: 50%;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  padding: 5px
+}
+
+.priority.high {
+  background-color: red;
+}
+
+.priority.medium {
+  background-color: yellow;
+}
+
+.priority.low {
+  background-color: green;
+}
+
