@@ -1,5 +1,5 @@
-const port = process.env.PORT || 6565;
 import axios from "axios";
+const port = process.env.PORT || 6565;
 
 export default {
   async list() {
