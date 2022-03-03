@@ -3,12 +3,13 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 6565;
-console.log("PORT", port);
+
 
 app.use(cors());
 app.use(express.json());
 
 app.get("/todos", (req, res) => {
+  console.log("PORT", port);
   const todos = db.list();
   res.status(200).send(todos);
 });
