@@ -1,1 +1,1 @@
-web: node server/npm install && index.js
+web: npm install && node server/ && index.js
